@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/cumulative_score"
+        android:title="@string/cumulative_score"/>
+    <item
+        android:id="@+id/update_max"
+        android:title="@string/update_max"/>
+    <item
+        android:id="@+id/reset_score"
+        android:title="@string/reset_score"/>
+</menu>

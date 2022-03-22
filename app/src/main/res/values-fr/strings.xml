@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">App De Quiz</string>
+    <string name="button_true">Vrai</string>
+    <string name="button_false">Faux</string>
+    <string name="button_cancel">ANNULER</string>
+    <string name="button_save">ENREGISTRER</string>
+    <string name="cumulative_score">Obtenir un Score Cumulé</string>
+    <string name="reset_score">Réinitialiser le Score Cumulé</string>
+    <string name="update_max">Modifier le Montant Maximum</string>
+    <string name="question1">Vénus est la planète la plus proche du soleil</string>
+    <string name="question2">Les araignées ont 8 pattes</string>
+    <string name="question3">9 + 10 = 21</string>
+    <string name="question4">Les pingouins sont considérés comme des oiseaux incapables de voler</string>
+    <string name="question5">Le soleil est froid la nuit</string>
+    <string name="question6">Une journée dure 24 heures</string>
+    <string name="question7">La peur des trous s\'appelle la trypophobie</string>
+    <string name="question8">Les herbivores mangent de la viande</string>
+    <string name="result_title">Résultat</string>
+    <string name="result_score_a">Ton score est: </string>
+    <string name="result_score_b"> hors de </string>
+    <string name="save">ENREGISTRER</string>
+    <string name="cancel">ANNULER</string>
+    <string name="cumulative_score_title">Note Cumulée</string>
+    <string name="summary">Vos bonnes réponses / Nombre total de questions = </string>
+    <string name="update_prompt">Entrez le nombre de questions inférieur à </string>
+    <string name="error">Erreur</string>
+    <string name="error_prompt_text">Veuillez saisir un nombre inférieur à </string>
+    <string name="ok">OK</string>
+</resources>

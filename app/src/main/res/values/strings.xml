@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="button_true">True</string>
+    <string name="button_false">False</string>
+    <string name="button_cancel">CANCEL</string>
+    <string name="button_save">SAVE</string>
+    <string name="cumulative_score">Get Cumulative Score</string>
+    <string name="reset_score">Reset Cumulative Score</string>
+    <string name="update_max">Update Max Questions</string>
+    <string name="question1">Venus is the closest planet to the sun</string>
+    <string name="question2">Spiders have 8 legs</string>
+    <string name="question3">9 + 10 = 21</string>
+    <string name="question4">Penguins are considered to be flightless birds</string>
+    <string name="question5">The sun is cold at night</string>
+    <string name="question6">A day is 24 hours long</string>
+    <string name="question7">The fear of holes is called Trypophobia</string>
+    <string name="question8">Herbivores eat meat</string>
+    <string name="result_title">Result</string>
+    <string name="result_score_a">Your score is: </string>
+    <string name="result_score_b"> out of </string>
+    <string name="save">SAVE</string>
+    <string name="cancel">CANCEL</string>
+    <string name="cumulative_score_title">Cumulative Score</string>
+    <string name="summary">Your correct answers / Total number of questions = </string>
+    <string name="update_prompt">Enter the number of questions less than </string>
+    <string name="error">Error</string>
+    <string name="error_prompt_text">Please enter a number less than </string>
+    <string name="ok">OK</string>
+</resources>
