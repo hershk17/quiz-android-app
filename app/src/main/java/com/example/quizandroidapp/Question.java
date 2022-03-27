@@ -3,7 +3,7 @@ package com.example.quizandroidapp;
 public class Question {
     private Integer description;
     private Boolean answer;
-    private Integer colour = 1;
+    private Integer colour;
 
     public Question(int description, Boolean answer) {
         this.description = description;

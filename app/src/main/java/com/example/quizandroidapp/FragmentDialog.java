@@ -1,7 +1,9 @@
 package com.example.quizandroidapp;
 
+import android.app.Dialog;
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
 import androidx.fragment.app.DialogFragment;
 import androidx.fragment.app.Fragment;
 
@@ -37,6 +39,7 @@ public class FragmentDialog extends DialogFragment {
         if (getArguments() != null) {
             textParam = getArguments().getString(ARG_PARAM1);
         }
+        setRetainInstance(true);
     }
 
     @Override

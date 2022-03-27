@@ -17,7 +17,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener, FragmentDialog.DialogClickListener {
 
-    private AlertDialog.Builder builder;
+    private AlertDialog.Builder builder, builder2;
 
     private final FragmentManager fm = getSupportFragmentManager();
     private QuestionBankManager qm;
@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         builder = new AlertDialog.Builder(this);
+        builder2 = new AlertDialog.Builder(this);
         qm = ((MyApp)getApplication()).qm;
         fsm = ((MyApp)getApplication()).fsm;
 
@@ -123,11 +124,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onOptionsItemSelected(item);
         switch(item.getItemId()) {
             case R.id.cumulative_score:
-                builder.setTitle(getString(R.string.cumulative_score_title))
+                builder2.setTitle(getString(R.string.cumulative_score_title))
                         .setMessage(getString(R.string.summary) + " " + fsm.getScoreOnFile(this))
                         .setCancelable(true)
-                        .setPositiveButton("OK", null)
-                        .setNegativeButton(null,null)
+                        .setPositiveButton(getString(R.string.ok), null)
                         .show();
                 break;
             case R.id.update_max:
@@ -149,7 +149,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             resetQuiz();
         }
         else {
-            builder.setTitle(getString(R.string.error))
+            builder2.setTitle(getString(R.string.error))
                     .setMessage(getString(R.string.error_prompt_text) + " " + maxQuestions)
                     .setCancelable(true)
                     .setPositiveButton(getString(R.string.ok), null)
